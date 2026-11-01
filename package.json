@@ -1,0 +1,30 @@
+{
+  "name": "acode-9router",
+  "version": "1.0.0",
+  "description": "Acode 9Router — Local multi-provider AI proxy with auto-fallback for Acode editor on mobile",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "node esbuild.config.mjs",
+    "pack": "node .vscode/pack-zip.js"
+  },
+  "keywords": [
+    "acode",
+    "9router",
+    "ai",
+    "llm",
+    "fallback",
+    "router",
+    "agent"
+  ],
+  "author": "Neon-MC & Antigravity",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Neon-MC/acode-9router.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "jszip": "^3.10.1"
+  }
+}

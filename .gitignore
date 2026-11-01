@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Local cache & temp
+.cache/
+*.log
+.DS_Store
+
+# Ignore notes and text files
+*.txt
+
+# Ignore icon scratch/source folders (root icon.png is used by plugin)
+icons/
+9Router_icon/
+
+# Internal development notes & research
+research/
+etapas/
+
+# Distribution archives (distributed via GitHub Releases)
+*.zip

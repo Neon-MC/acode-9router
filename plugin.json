@@ -1,0 +1,38 @@
+{
+  "$schema": "https://acode.app/schema/plugin/v0.1.0.json",
+  "id": "acode.9router",
+  "name": "Acode 9Router",
+  "main": "dist/main.js",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "readme": "readme.md",
+  "changelogs": "changelogs.md",
+  "repository": "https://github.com/Neon-MC/acode-9router",
+  "minVersionCode": 290,
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "9router",
+    "llm",
+    "fallback",
+    "agent",
+    "proxy"
+  ],
+  "price": 0,
+  "author": {
+    "name": "Neon-MC",
+    "github": "Neon-MC"
+  },
+  "contributors": [
+    {
+      "name": "Neon-MC",
+      "github": "Neon-MC",
+      "role": "Creator & Lead Developer"
+    },
+    {
+      "name": "Antigravity",
+      "github": "google-antigravity",
+      "role": "AI Pair Programmer"
+    }
+  ]
+}
